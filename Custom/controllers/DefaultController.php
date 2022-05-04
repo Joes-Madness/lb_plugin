@@ -7,7 +7,7 @@ class DefaultController extends Controller {
             array(
                 'account' => yii::app()->lanbilling->getClient()->account->login
             ),
-            yii::app()->params['inplat']['url']
+            yii::app()->params['custom']['url']
         );
     }
 }
