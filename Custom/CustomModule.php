@@ -1,3 +1,3 @@
 <?php
-    class InplatModule extends ModuleForPlugins {}			
+    class CustomModule extends ModuleForPlugins {}			
 ?>
